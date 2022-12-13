@@ -1,0 +1,27 @@
+.products__Main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(12rem,1fr));
+    gap:1.2rem;
+    width:100%
+}
+
+.single__Product img{
+   width: 100px;
+   height: 100px;
+}
+
+.single__Product{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.pagination{
+    width: 400px;
+    /* background-color: red; */
+    text-align: center;
+    margin-left: 20%;
+}

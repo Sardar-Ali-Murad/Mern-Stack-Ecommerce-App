@@ -1,0 +1,22 @@
+.reviews__Main{
+    display: grid; 
+    grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
+    gap: 1.2rem;
+    width: 90%; 
+    margin-top: 20px;
+}
+
+.single__Review{
+  background-color: lightblue;
+}
+
+.review__Card{
+ height: 400px;
+ /* max-height: 500px; */
+}
+
+@media screen and (max-width:900px){
+  .reviews__Main{
+    padding: 2rem 7%;
+  }
+}

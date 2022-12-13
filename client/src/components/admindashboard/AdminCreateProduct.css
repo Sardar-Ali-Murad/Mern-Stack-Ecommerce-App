@@ -1,0 +1,11 @@
+.create__Product__Wrapper{
+    /* display: grid; */
+    grid-template-columns: repeat(auto-fit,minmax(23rem,1fr));
+    gap: 1.2rem;
+    width: 100%;
+}
+
+.admin__Products__Create {
+    width: 100%;
+    margin-top: 100px;
+}
